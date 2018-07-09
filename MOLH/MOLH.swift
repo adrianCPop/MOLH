@@ -269,10 +269,10 @@ extension UIControl {
         if self.tag < MOLH.shared.maximumLocalizableTag + 1 {
             if MOLHLanguage.isRTLLanguage()  {
                 if self.contentHorizontalAlignment == .right { return }
-                self.contentHorizontalAlignment = .right
+                //self.contentHorizontalAlignment = .right
             } else {
                 if self.contentHorizontalAlignment == .left { return }
-                self.contentHorizontalAlignment = .left
+                //self.contentHorizontalAlignment = .left
             }
         }
     }
